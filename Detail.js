@@ -4,7 +4,7 @@ import WebView from "react-native-webview";
 
 function Detail({ navigation }) {
   return (
-    <WebView source={{ uri: "https://www.google.com" }} style={{ flex: 1 }} />
+    <WebView source={{ uri: "https://www.iefield.com" }} style={{ flex: 1 }} />
   );
 }
 
