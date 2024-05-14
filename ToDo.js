@@ -84,7 +84,7 @@ function ToDo({ navigation }) {
       </View>
       <View>
         <Button
-          title="Go to Google"
+          title="Go to Field"
           onPress={() => navigation.navigate("Detail")}
           color="white"
           style={{ flex: 1 }}
