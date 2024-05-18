@@ -2,8 +2,8 @@ import * as React from "react";
 import { View, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ToDo from "./ToDo";
 import Detail from "./Detail";
+import ToDo from "./Todo";
 import { theme } from "./colors";
 
 const Stack = createNativeStackNavigator();
