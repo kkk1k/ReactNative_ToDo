@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Detail from "./Detail";
 import ToDo from "./Todo";
 import { theme } from "./colors";
+import Check from "./Check";
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ function App() {
       >
         <Stack.Screen name="Home" component={ToDo} />
         <Stack.Screen name="Detail" component={Detail} />
+        <Stack.Screen name="Check" component={Check} />
       </Stack.Navigator>
     </NavigationContainer>
   );

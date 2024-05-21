@@ -89,6 +89,12 @@ function ToDo({ navigation }) {
           color="white"
           style={{ flex: 1 }}
         />
+        <Button
+          title="Go to check"
+          onPress={() => navigation.navigate("Check")}
+          color="white"
+          style={{ flex: 1 }}
+        />
       </View>
       <View>
         <TextInput
