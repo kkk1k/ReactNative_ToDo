@@ -1,9 +1,9 @@
 import * as React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Detail from "./Detail";
-import ToDo from "./Todo";
+import ToDo from "./ToDo";
 import { theme } from "./colors";
 import Check from "./Check";
 

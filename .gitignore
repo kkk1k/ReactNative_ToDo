@@ -33,3 +33,5 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+const localIp = "192.168.55.76"; // 여기에 확인한 로컬 IP 주소를 입력하세요.
+  const serverPort = "5173"; // 서버가 실행 중인 포트 번호를 입력하세요.

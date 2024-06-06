@@ -65,7 +65,7 @@ function ToDo({ navigation }) {
   };
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
+      <StatusBar animated={true} backgroundColor="#61dafb" />
       <View style={styles.header}>
         <TouchableOpacity onPress={work}>
           <Text
